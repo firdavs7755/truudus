@@ -1,0 +1,18 @@
+.pane-wrapper{
+    /*margin: auto;*/
+    background: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+.pane-wrapper .title{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    /*color: #0F244F;*/
+}
+.pane-wrapper .rightPointer{
+    float: left!important;
+}

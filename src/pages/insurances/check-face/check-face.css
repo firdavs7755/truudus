@@ -1,0 +1,11 @@
+.left-pointer{
+    padding-right: 2%;
+}
+.footer-button{
+    padding-top: 13px;
+    padding-bottom: 15px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #326BDE;
+    border-radius: 8px;
+}

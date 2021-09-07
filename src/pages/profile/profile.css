@@ -1,0 +1,19 @@
+.profile-wrapper{
+    padding: 16px;
+}
+.profile-wrapper .accountImg{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border:1px solid rgba(70, 74, 75, 0.17);
+    border-radius: 50%;
+    right: 0;
+}
+.accountImg .camera{
+    position: absolute;
+    right: -6px;
+    bottom: -5px;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}

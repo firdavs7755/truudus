@@ -1,0 +1,16 @@
+.car-data-wrapper{
+    padding-top:5%;
+    padding-bottom:8%;
+    background: #FFFFFF;
+}
+.car-data-wrapper .car-data-title{
+    height: 84px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    color: #0F244F;
+}
+
+
+

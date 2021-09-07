@@ -1,0 +1,28 @@
+.polis-wrapper{
+    padding: 16px;
+}
+.polis-wrapper .btn{
+    padding: 8px;
+    padding-top: 5px!important;
+    height: 38px;
+    color: white;
+    background: #56AA85;
+    border-radius: 16px;
+}
+.polis-wrapper .progress-title{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #7A879C;
+}
+.polis-wrapper .day{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #0F244F;
+}

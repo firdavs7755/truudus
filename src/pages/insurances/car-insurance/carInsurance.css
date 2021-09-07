@@ -1,0 +1,27 @@
+/*Agar stepper ishlatsam kerak bo'ladi bu class lar*/
+.ant-steps-icon-dot {
+    display: none;
+    position: absolute!important;
+}
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: rgba(33, 31, 31, 0.34);
+}
+.ant-steps-item-wait .ant-steps-item-container .ant-steps-item-tail::after{
+    background-color: rgba(33, 31, 31, 0.34);
+}
+.ant-steps-item-finish .ant-steps-item-container .ant-steps-item-tail::after{
+    background: red;
+}
+.ant-steps-dot .ant-steps-item-tail, .ant-steps-dot.ant-steps-small .ant-steps-item-tail {
+    top: 2px;
+    width: 100%;
+}
+.ant-steps-dot .ant-steps-item-tail::after, .ant-steps-dot.ant-steps-small .ant-steps-item-tail::after {
+    width: calc(100% - 10px);
+    height: 3px;
+    margin-left: 0px!important;
+}
+/*.ant-steps-item-process > .ant-steps-item-container{*/
+/*    width: 10%!important;*/
+/*    padding: 0!important;*/
+/*}*/

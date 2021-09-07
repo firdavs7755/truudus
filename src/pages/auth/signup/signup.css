@@ -1,0 +1,18 @@
+.signup-wrapper{
+    padding:16px;
+    background: white;
+}
+.signup-wrapper .footer-btn{
+    height: 50px;
+    padding: 15px;
+    background: #326BDE;
+    border-radius: 8px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

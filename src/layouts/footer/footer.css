@@ -1,0 +1,12 @@
+.footer-wrapper{
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    width: 90% !important;
+    z-index: 999;
+}
+@media screen and (max-width:1300px){
+    .footer-wrapper{
+        width: 100% !important;
+    }
+}

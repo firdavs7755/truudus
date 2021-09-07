@@ -1,0 +1,65 @@
+.carIns-wrapper{
+    padding:16px;
+    padding-bottom: 0!important;
+    background: #FFFFFF;
+    position: absolute;
+    top : 30%;
+    width: 85%;
+}
+.carIns-wrapper .car-title{
+    height: 84px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    color: #0F244F;
+}
+
+.carIns-wrapper .carBody-wrapper{
+    background: #F7F7FE;
+    border-radius: 4px;
+    width: 48% !important;
+    padding-top: 3.85%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.carBody-wrapper .type-title{
+    height: 40px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3% 6%;
+    line-height: 130%;
+    text-align: center;
+    color: #0F244F;
+}
+.carBody-wrapper .type-sub-title{
+    width: 61px;
+    height: 17px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #7A879C;
+}
+
+
+
+
+
+
+/* -----------------------------------MEDIA START------------------------------------- */
+@media screen and (max-width:768px){
+    .carIns-wrapper .car-title {
+        font-size: 32px;
+    }
+    .carBody-wrapper .type-title {
+        font-size: 14px;
+    }
+    .carBody-wrapper .type-sub-title {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,480 @@
+.homeWrap{
+
+}
+
+.card{
+    padding: 20px;
+    border-radius: 15px;
+    background:url('../../assets/home/cardBd.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width:100%;
+}
+
+.card .title{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 16px;
+    text-align: left;
+    color: #F7F7FE;
+    /* padding-left: 16px;
+    padding-top: 16px; */
+}
+.cardLeft{
+    padding-top:13%;
+}
+.card .cardLeft .process{
+    /* padding-left: 16px; */
+    font-family: SF Pro Text;
+    font-size: 30px;
+    color: #F7F7FE;
+}
+.card .cardLeft .addData{
+    padding: 1rem 1rem;
+    margin-top: 6.5%;
+    width: 50%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+    border-radius: 16px;
+}
+.addData .txt{
+    padding :0 0.8rem 0.5rem 0.8rem;
+    position: static;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.03rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sectionTitle{
+    padding-top: 24px;
+    padding-bottom: 20px!important;
+    height: 19px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7A879C;
+}
+
+.item-wrapper{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding:16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+}
+.item-wrapper .item-title{
+    height: 19px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #0F244F;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.item-wrapper .item-sub-title{
+    margin-left: 20px;
+    margin-top: 6px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7A879C;
+}
+.item-wrapper .right-item{
+    align-items: center!important;
+}
+.right-btn1{
+    padding: 8px 15px;
+    padding-top: 4px!important;
+    height: 33px;
+    background: #326BDE;
+    border-radius: 16px;
+    text-align: center;
+    /* width:30%; */
+    color: #FFFFFF;
+}
+
+.swiper-slide {
+    width: 91%;
+}
+.swiper-slide:nth-child(2n) {
+    width:91%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 91%;
+}
+
+
+
+
+
+/* /* -------------------------_------------MEADIA START*-----------------------/ */
+
+@media screen and (max-width:1024px){
+    .card{
+        height: 60vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 38px;
+    }
+    .cardLeft{
+        padding-top:10%;
+    }
+    .card .cardLeft .process{
+        font-size: 25px;
+    }
+    .card .cardLeft .addData{
+        padding: 1rem 0.8rem;
+        margin-top: 7%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        padding :0 0.4rem 0.35rem 0.5rem;
+        font-size: 25px;
+        line-height: 1rem;
+    }
+    .item-wrapper .right-item{
+        align-items: center!important;
+    }
+    .swiper-slide {
+        width: 89.5%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width:89.5%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 89.5%;
+    }
+}
+@media screen and (max-width:900px){
+    .card{
+        height: 53vh;
+    }
+
+    .card .title{
+        font-size: 34px;
+    }
+    .cardLeft{
+        padding-top:15%;
+    }
+    .card .cardLeft .process{
+        font-size: 23px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.8rem 0.7rem;
+        margin-top: 6.5%;
+    }
+    .addData .txt{
+        font-size: 23px;
+    }
+    .item-wrapper .right-item{
+        align-items: center!important;
+    }
+    .swiper-slide {
+        width: 87.8%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width:87.8%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 87.8%;
+    }
+}
+@media screen and (max-width:768px){
+    .card{
+        height: 34vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 34px;
+    }
+    .cardLeft{
+        padding-top:9%;
+    }
+    .card .cardLeft .process{
+        font-size: 23px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.8rem 0.7rem;
+        margin-top: 5%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        padding :0 0.4rem 0.35rem 0.5rem;
+        font-size: 25px;
+        line-height: 1rem;
+    }
+    .item-wrapper .right-item{
+        align-items: center!important;
+    }
+    .swiper-slide {
+        width: 85%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width:85%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .card{
+        height: 32vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 30px;
+    }
+    .cardLeft{
+        padding-top:8%;
+    }
+    .card .cardLeft .process{
+        font-size: 21px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.8rem 0.7rem;
+        margin-top: 5%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        padding :0 0.4rem 0.35rem 0.5rem;
+        font-size: 20px;
+        line-height: 1rem;
+    }
+    .item-wrapper .right-item{
+        align-items: center!important;
+    }
+    .swiper-slide {
+        width: 81.27%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 81.27%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 81.27%;
+    }
+}
+
+@media screen and (max-width:482px){
+    .card{
+        height: 27vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 20px;
+    }
+    .cardLeft{
+        padding-top:4%;
+    }
+    .card .cardLeft .process{
+        font-size: 14px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.35rem 0.25rem;
+        margin-top: 2%;
+        width: 56%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        padding :0 0.2rem 0.1rem 0.2rem;
+        font-size: 14px;
+        line-height: 0.6rem;
+    }
+
+    .swiper-slide {
+        width: 76.4%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 76.4%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 76.4%;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .card{
+        padding: 7px;
+        border-radius: 15px;
+        height: 26vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 16px;
+        line-height: 7px;
+        text-align: left;
+    }
+    .cardLeft{
+        padding-top:3%;
+    }
+    .card .cardLeft .process{
+        font-size: 14px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.2rem 0.2rem;
+        margin-top: 2%;
+        width: 70%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        /* padding :0 0.8rem 0.5rem 0.8rem; */
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 0.4rem;
+    }
+    .sectionTitle{
+        padding-top: 18px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .item-wrapper{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding:8px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        border-radius: 8px;
+    }
+    .item-wrapper .item-title{
+        font-weight: 600;
+        font-size: 13px;
+        color: #0F244F;
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .item-wrapper .item-sub-title{
+        margin-left: 10px;
+        margin-top: 3px;
+        font-size: 11px;
+    }
+    .right-btn1{
+        padding: 4px 9px;
+        padding-top: 0px!important;
+        height: 22px;
+        border-radius: 16px;
+        width:21%;
+    }
+    .right-btn2{
+        width:21%;
+    }
+    .swiper-slide {
+        width: 74.78%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 74.78%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 74.78%;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+    .card{
+        padding: 5px;
+        border-radius: 15px;
+        height: 24vh;
+        width:100%;
+    }
+
+    .card .title{
+        font-size: 16px;
+        line-height: 7px;
+        text-align: left;
+    }
+    .cardLeft{
+        padding-top:3%;
+    }
+    .card .cardLeft .process{
+        font-size: 14px;
+    }
+    .card .cardLeft .addData{
+        padding: 0.2rem 0.2rem;
+        margin-top: 2%;
+        width: 70%;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #56AA85;
+        border-radius: 16px;
+    }
+    .addData .txt{
+        /* padding :0 0.8rem 0.5rem 0.8rem; */
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 0.4rem;
+    }
+    .sectionTitle{
+        padding-top: 18px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .item-wrapper{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding:8px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        border-radius: 8px;
+    }
+    .item-wrapper .item-title{
+        font-weight: 600;
+        font-size: 13px;
+        color: #0F244F;
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .item-wrapper .item-sub-title{
+        margin-left: 10px;
+        margin-top: 3px;
+        font-size: 11px;
+    }
+    .right-btn1{
+        padding: 4px 9px;
+        padding-top: 0px!important;
+        height: 22px;
+        border-radius: 16px;
+        width:21%;
+    }
+    .right-btn2{
+        width:21%;
+    }
+    .swiper-slide {
+        width: 70%;
+    }
+    .swiper-slide:nth-child(2n) {
+        width:75%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 75%;
+    }
+
+}
+

@@ -1,0 +1,66 @@
+.about-wrapper{
+    padding: 12px;
+    background: white;
+    border-radius: 16px;
+}
+.about-wrapper .about-brand{
+    text-align: center;
+    background: radial-gradient(145.69% 145.69% at 117.18% 117.27%, #1A50B9 7.01%, #407AF4 90.84%), #F7F7FE!important;
+    border-radius: 8px;
+    height: 300px !important;
+    padding-top: 10%;
+}
+.about-brand .truudus{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.241px;
+    line-height: 59px;
+    color:white!important;
+}
+.about-brand .heart{
+    margin-left: 4px;
+    margin-bottom: 35px;
+}
+.about-wrapper .about-body{
+    margin-top: 16px;
+}
+.about-body .about-app{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #172B4D;
+}
+.about-body .about-desc{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #172B4D;
+    margin-top: 8px;
+}
+
+
+
+/*----------------------------MEDIA------------------------------------*/
+@media screen and (max-width: 900px){
+    .about-wrapper .about-brand{
+        height: 220px !important;
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 600px){
+    .about-wrapper .about-brand{
+        height: 220px !important;
+        padding-top: 16%;
+    }
+}
+@media screen and (max-width: 420px){
+    .about-wrapper .about-brand{
+        height: 220px !important;
+        padding-top: 25%;
+    }
+}

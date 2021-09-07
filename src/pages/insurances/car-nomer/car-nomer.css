@@ -1,0 +1,104 @@
+.car-nomer1{
+    width:7.5% !important;
+    height: 50px;
+}
+.car-nomer2{
+    width:90% !important;
+    padding-left:2%;
+    padding-right:2%;
+    height: 50px;
+}
+.car-nomer3{
+    width:2.5% !important;
+}
+.nomer-modal{
+    padding:25px;
+    text-align: center;
+}
+.nomer-modal .nomer-modal-title{
+    padding-top:24px;
+    height: 19px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    color: #0F244F;
+}
+
+.nomer-modal .nomer-modal-body{
+    width: 279px;
+    height: 64px;
+    margin: auto!important;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 6px;
+}
+.nomer-modal-body .cont1{
+    width: 20%;
+    height: 62px;
+    border: 3px solid #000000;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+}
+.nomer-modal-body .cont2{
+    width: 80%;
+    height: 58px;
+}
+.nomer-modal-body .cont3{
+    width: 20%;
+    height: 58px;
+    padding-right: 9px;
+}
+.ant-modal-content {
+    overflow: auto;
+    border-radius: 16px
+}
+.nomer-modal-body .nomer-txt{
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+.nomer-modal-body .flag-below{
+    width: 23px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4297B2;
+}
+.nomer-modal .nomer-modal-ok-btn{
+    width: 183px;
+    margin-top: 15px;
+    padding:10px 55px;
+    color: #326BDE;;
+    height: 50px;
+    background: #326bde46;
+    /* opacity: 0.1; */
+    border-radius: 8px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*-----------------------------media ---------------------------------------------*/
+@media screen and (max-width:768px) {
+    .car-nomer2{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}
+@media screen and (max-width:500px) {
+    .car-nomer2{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}

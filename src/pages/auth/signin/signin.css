@@ -1,0 +1,40 @@
+
+.auth-brand{
+    text-align: center;
+    /*vertical-align: middle!important;*/
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.auth-brand .truudus{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.241px;
+    line-height: 59px;
+    color:#1A50B9;
+}
+.auth-brand .heart{
+    margin-left: 4px;
+    margin-bottom: 35px;
+}
+.sign-acc{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #0F244F;
+}
+.btn-wrapper{
+    padding-top:20px;
+    height: 82px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px rgba(122, 135, 156, 0.1);
+}
+.btn-wrapper .btn{
+    height: 50px;
+    color: white;
+    background: #326BDE;
+    border-radius: 8px;
+}
+
